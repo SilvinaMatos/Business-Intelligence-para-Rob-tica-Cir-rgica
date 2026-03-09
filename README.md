@@ -1,3 +1,13 @@
+
+
+
+
+<img width="801" height="531" alt="image" src="https://github.com/user-attachments/assets/5680d76d-4362-4d4b-96bf-a92de9765721" />
+
+
+
+
+
 # 🏥 Business Intelligence para Robótica Cirúrgica – Projeto Justina
 
 ## 🎯 Objetivo
@@ -6,7 +16,7 @@ Avaliar a estratégia econômica e estratégica da adoção de um sistema de **c
 
 ---
 
-# 📊 1. Metodologia e Extração de Dados
+# 📊 Metodologia e Extração de Dados
 
 ## 🔹 Fonte de Dados
 
@@ -38,7 +48,7 @@ A extração foi realizada utilizando:
 
 ---
 
-# 🧹 2. Tratamento e Estrutura dos Dados
+# 🧹  Tratamento e Estrutura dos Dados
 
 Pipeline estruturado em camadas:
 
@@ -61,11 +71,15 @@ MART → Tabelas analíticas (fato_cirurgia_renal)
 
 ---
 
-# 📈 3. Análise de Mercado – TAM / SAM / SOM
+# 📈 Análise de Mercado – TAM / SAM / SOM
 
 ## 🔹 TAM (Total Addressable Market)
 
-Total de **cirurgias renais realizadas no SUS** no período analisado.
+
+
+
+
+Quantidade Total de **cirurgias renais realizadas no SUS** no período de 2022 a 2024 nos estados:
 
 | Estado | Cirurgias |
 |------|------|
@@ -75,6 +89,20 @@ Total de **cirurgias renais realizadas no SUS** no período analisado.
 | RJ | 6.705 |
 
 **Total estimado:** ~60 mil cirurgias no período analisado.
+
+
+
+### <img width="1135" height="908" alt="cirurgias_tam_por_uf" src="https://github.com/user-attachments/assets/aed4152f-a81c-422e-aa01-2fadb84281d8" />
+
+
+
+
+
+<img width="1148" height="908" alt="gasto_tam_por_uf" src="https://github.com/user-attachments/assets/48679430-724b-4d10-916a-238abdc570be" />
+
+
+
+
 
 ---
 
@@ -97,6 +125,17 @@ Hospitais que possuem:
 | RJ | 44 |
 | PR | 37 |
 
+
+
+
+
+<img width="1191" height="872" alt="centro_cirurgico_vs_renal" src="https://github.com/user-attachments/assets/f72b1092-1be1-492d-8d7e-6ad30ee42666" />
+
+
+
+
+
+
 ---
 
 ## 🔹 Estados Prioritários (TAM + Estrutura)
@@ -115,7 +154,7 @@ Estados estratégicos:
 
 ---
 
-# 🏥 4. Hospitais Prioritários
+# 🏥 Hospitais Prioritários
 
 Top 5 hospitais por volume de cirurgias:
 
@@ -136,7 +175,7 @@ Top 5 hospitais por volume de cirurgias:
 
 ---
 
-# 🤖 5. Estrutura para Robótica
+# 🤖  Estrutura para Robótica
 
 Os hospitais prioritários possuem:
 
@@ -145,12 +184,35 @@ Os hospitais prioritários possuem:
 - Alta complexidade
 - Perfil de hospital universitário ou de referência
 
+## 🔹 SOM - Estimativa de hospitais para serem conquistada
+
+
+
+
+
+
+
+<img width="1163" height="870" alt="distribuicao_custo_hospital" src="https://github.com/user-attachments/assets/f711e276-8571-41b4-a3f3-6b35f308624b" />
+
+
+
+
+
+
+<img width="1162" height="909" alt="volume_vs_custo_uf" src="https://github.com/user-attachments/assets/9f998750-a463-4e19-869a-dcbf6cab4c4b" />
+
+
+
+
+
+
 **Conclusão:**  
 São **candidatos viáveis para adoção de cirurgia robótica**.
 
+
 ---
 
-# 💰 6. Modelo Econômico
+# 💰  Modelo Econômico
 
 ## 🔹 CAPEX (Investimento Inicial)
 
@@ -183,7 +245,7 @@ Modelo aplicado em simulação com hospital de:
 
 ---
 
-# 📊 7. Simulação SOM Realista
+# 📊  Simulação SOM Realista
 
 Hipótese conservadora:
 
@@ -204,7 +266,7 @@ Com acréscimo médio de **R$ 5.000 por cirurgia**
 
 ---
 
-# 📈 8. KPIs do Projeto
+# 📈  KPIs do Projeto
 
 ## Indicadores Econômicos
 
@@ -226,31 +288,56 @@ Com acréscimo médio de **R$ 5.000 por cirurgia**
 
 ---
 
-# 📊 9. Estrutura do Dashboard
+# 📊  Dashboard
 
-Sugestão de divisão em **5 abas**:
 
-### 1️⃣ Visão Geral
-- TAM Brasil
-- Total de procedimentos
-- Gasto total
 
-### 2️⃣ Análise por UF
-- Mapa do Brasil
-- Volume de cirurgias
-- Custo médio
 
-### 3️⃣ Ranking Hospitalar
-- Top 10 hospitais
-- Gasto total
-- Custo médio
 
-### 4️⃣ Simulação Econômica
-- Slider de %
-- Projeção de receita
-- Payback
 
-### 5️⃣ Modelo CAPEX/OPEX
+
+
+
+
+
+
+### Ranking Hospitalar
+
+
+
+
+<img width="1982" height="1177" alt="top10_hospitais_cirurgias_renais" src="https://github.com/user-attachments/assets/0cc4a28f-9b4a-4d8c-98e6-46e9aa22d7bb" />
+
+
+
+
+
+<img width="2013" height="1177" alt="top10_hospitais_gasto_renais" src="https://github.com/user-attachments/assets/52dfe203-7dc6-4bce-bcee-a33393777aa7" />
+
+
+
+
+
+### Simulação Econômica
+
+
+
+
+
+<img width="1172" height="939" alt="pizza_cirurgias_tam_top8_outros" src="https://github.com/user-attachments/assets/a51d5ce8-7498-4db0-b4dd-fc3fcb209ea7" />
+
+
+
+
+
+<img width="1260" height="938" alt="scatter_cirurgias_vs_gasto_tam" src="https://github.com/user-attachments/assets/a3ac4efb-e9cd-4859-8edc-b4e3362e479d" />
+
+
+
+
+
+### CAPEX/OPEX
+
 - TCO
 - ROI (Retorno sobre investimento)
 - Cenários:  
@@ -260,7 +347,7 @@ Sugestão de divisão em **5 abas**:
 
 ---
 
-# 🎯 10. Conclusão Estratégica
+# 🎯 Conclusão Estratégica
 
 O mercado brasileiro apresenta:
 
@@ -268,6 +355,7 @@ O mercado brasileiro apresenta:
 ✔ Hospitais com capacidade estrutural  
 ✔ Volume suficiente para adoção  
 ✔ Viabilidade econômica mesmo em cenário conservador  
+
 
 **Conclusão:**
 
